@@ -1,8 +1,8 @@
-# 9199 (I think)
+# 17489
 
-.set PingLimitPatch, 0x819831A8
-.set XContentGetLicenseMask, 0x81936128
-.set DasboardGameLicenseCheck, 0x818DBAC0
+.set PingLimitPatch, 0x819831A8 # Unknown for RGLoader, will find eventually
+.set XContentGetLicenseMask, 0x817C1238
+.set DasboardGameLicenseCheck, 0x817327F0
 
 		.globl _start
 _start:
